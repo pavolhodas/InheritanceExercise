@@ -1,10 +1,6 @@
-public class Teacher extends Atributes{
-    public Teacher(float salary, int bonus) {
-        this.salary = salary;
-        this.bonus = bonus;
-    }
+public class Teacher extends Employee {
 
-    public void getInfo(){
-        System.out.println("Teacher's salary is " + salary + " and bonus is " + bonus);
+    public Teacher(String employeeType ,float salary, int bonus) {
+        super(employeeType, salary, bonus);
     }
 }
