@@ -1,7 +1,4 @@
-public class Teacher {
-    float salary;
-    int bonus;
-
+public class Teacher extends Atributes{
     public Teacher(float salary, int bonus) {
         this.salary = salary;
         this.bonus = bonus;
