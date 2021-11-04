@@ -1,3 +1,5 @@
+package Model;
+
 public abstract class Employee{
     EmployeeType employeeType;
     float salary;

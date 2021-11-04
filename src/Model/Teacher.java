@@ -1,3 +1,5 @@
+package Model;
+
 public class Teacher extends Employee {
 
     public Teacher(float salary, int bonus) {
