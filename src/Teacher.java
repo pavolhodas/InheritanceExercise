@@ -1,6 +1,6 @@
 public class Teacher extends Employee {
 
-    public Teacher(String employeeType ,float salary, int bonus) {
-        super(employeeType, salary, bonus);
+    public Teacher(float salary, int bonus) {
+        super(EmployeeType.TEACHER, salary, bonus);
     }
 }

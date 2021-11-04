@@ -1,6 +1,6 @@
 public class Programmer extends Employee {
 
-    public Programmer(String employeeType, float salary, int bonus) {
-        super(employeeType, salary, bonus);
+    public Programmer(float salary, int bonus) {
+        super(EmployeeType.PROGRAMMER, salary, bonus);
     }
 }
