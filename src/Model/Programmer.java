@@ -1,6 +1,6 @@
 package Model;
 
-public class Programmer extends Employee {
+public class Programmer extends Employee{
 
     private final float programmerSalary = salary + bonus;
 
