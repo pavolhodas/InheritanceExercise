@@ -9,6 +9,6 @@ public class Programmer extends Employee{
     }
 
     public void getInfo() {
-        System.out.println(employeeType + "'s salary is " + programmerSalary);
+        System.out.println(employeeType.name + "'s salary is " + programmerSalary);
     }
 }

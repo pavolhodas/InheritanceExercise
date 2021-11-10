@@ -1,9 +1,12 @@
 import Model.Employee;
-
-import java.util.List;
+import Model.Programmer;
 
 public interface EmployeeService {
-    public double totalSalary(List<Employee> employeesSalary);
+    public static void totalSalary(){
 
-    public void totalBonus(List<Employee> employeesBonus);
+    }
+
+    public static void totalBonus(){
+
+    }
 }
